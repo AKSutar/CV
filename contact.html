@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Details</title>
+  </head>
+  <body>
+    <h3>Contact Me:- </h3>
+    <ol type="I">
+      <li> My Gmail Id - <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Amrit Kumar Sutar</a> </li>
+      <li> My Outlook Id - <a href="https://outlook.live.com/mail/0/inbox">Amrit Kumar Sutar</a></li>
+      <li> My Phone No - 9776001533 </li>
+      <br>
+      <hr size="2" noshade>
+        <form action="mailto:aksutar@live.com" method="post" enctype="text/plain"> <!--Here <form> tag represents a document section for collecting information from the user or for submitting information from the user. -->
+        <!--When we click submit button, it is taking to our home page index.html coz,in action we have given the link to our home page index.html -->
+        <!--When we click the submit button the 'mailto' will open up the default mail id that we have given after the semi-colon of mailto-->
+        <!--And the job of method="post" is to transfer all the input data fields that we have given filled up in below sect to our default mailto client. -->
+        <li><label for="">Your Name :- </label> <!--Here <label> tag is used to ask the user for there name input. -->
+        <input type="text" name="Name" value=""></li><br> <!--In order to type there name or to store info. <input> tag is being used. As here type="text", so it can only take info. that is of text type. -->
+        <li><label for="">Do you want to sign up for the mail list?</label>
+        <input type="checkbox" name="" value=""></li><br><!--This creates a checkbox for our user to interface with our webpage -->
+        <li><label for="">Your Mail ID:</label>
+        <input type="email" name="Mail ID" value="">
+        <input type="submit" name=""></li><br>
+        <li><label for="">Your Password</label>
+        <input type="password" name="Password" value=""> <!--This is used to allow the user to create a password. Here whatever we type,it get masked automatically usually looks like black dot. -->
+        <input type="submit" name=""></li><br><!--So this is the submit button for the user to submit there information. -->
+        <li><label for="">Your Message :</label>
+        <textarea name="Message" rows="10" cols="30"></textarea>
+        <input type="submit" name=""></li>
+
+      </form>
+    </ol>
+
+  </body>
+</html>

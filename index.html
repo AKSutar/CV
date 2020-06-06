@@ -1,0 +1,87 @@
+<!--Down to this is the HTML boilerplate code. It is like having a code template. -->
+<!DOCTYPE html> <!--Here we declare the document type & it tell the browser that what version of HTML is being used up. Here it is HTML5. And this tells the browser to render this file as HTML5 document-->
+
+<html lang="en" dir="ltr"> <!--This is HTML tag & this tells browser that everything in between the opening & closing tags is going to be HTML code  -->
+
+<head> <!--head is the part of html file that holds info about the webpage & it tells the browser that how it should handle the page  -->
+
+  <meta charset="utf-8"> <!--meta element give extra metadata or associated data to out HTML element.This particular one is charcter set And it tells that all the text inside our webpage is encoded using the UTF 8 encoding system.-->
+
+  <title>Sutar's Personal Site</title> <!--Title tag tells the browser that what is the title of this particular  -->
+</head>
+
+<body>
+  <table cellspacing="20"> <!--Table cellspacing is being used to create some space b/t. rows & columns -->
+    <tr>
+      <td><img src="Sutar.jpg" alt="Amrit's Photo"> <!-- Here the image & html file is present in same folder location. So, we just type out the image name & it can easily grab the image location  --></td>
+      <td><h1><em>Amrit Kumar Sutar</em></h1> <!--The emphasis tag <em> gives more priority to that element that comes in b/t. the opening & closing tag of <em> -->
+        <p><i><b>Robotics Engineer </b></i></p> <!--The paragrarph tag <p> is used to declare a paragrarph inside our web page. -->
+        <p><strong>My linkedin site</strong><em><a href="https://www.linkedin.com/in/amrit-kumar-sutar-57003a165/"> Amrit Kumar Sutar</a></em></p>
+        <p><b>My github page is </b><i><a href="https://github.com/AKSutar"> Amrit Kumar Sutar</a></i></p> <!--The anchor tag <a> is used to provide the link in a webpage. --></td>
+    </tr>
+  </table>
+
+
+  <p><i><strong>Web</strong> Developement Bootcamp </i></p> <!--The <strong> tag is used to give more preferences to that element that comes in b/t. the opening & closing of <strong> tag -->
+  <p><i> Hello! My name is <strong>Amrit Kumar Sutar</strong>. I had done my B.tech in Electronics & Tele-Communication.</i></p> <!--The italize <i> & bold <b> tag is used to make the letters looks like italic & bold in looks. -->
+
+  <hr size="2" noshade> <!--The horizontal rule <hr> tag is used to create a straight horizontal line in any part of our web page. -->
+
+  <h3>Work Experience</h3>
+  <table border="1"> <!--Inisde our table tag lies our actual content that we want to display insde the table. This tag simply creates a simple table -->
+    <thead> <!--This tag defines a set of rows defining the header of the column of the table. -->
+      <tr> <!-- This tag will just create a single row in our present table.In b/w. the open & closing <tr> tag is the data for that row is going to go.If there is no data in b/t. these <tr> tag, then we wont't actually see anything appear on screen. -->
+        <th>Dates</th> <!--This tag is being used to define a cell as header of group of vertical table cell. -->
+        <th>Designation</th> <!--Using <th> tag we can give as many header tag according to our need to any no. of rows  -->
+        <th>Extra Caricullar</th>
+      </tr>
+    </thead>
+    <tbody> <!--This tag is being used to assign information/data to the table cell of html. -->
+      <tr>
+        <td>2019 - 2020</td> <!--In b/t. opening & closing <td> tag we will place the actual data that is going to be inside the table data or table cell.This is a single table cell -->
+        <td>Robotics Application Engineer</td>
+        <td>Embedded Systems</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Bachelor of Technology</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <!-- This tag defines a set of rows summerizing the column of the table. Usually being used to summerzie the column of the table.  -->
+    </tfoot>
+  </table>
+
+  <hr size="2" noshade>
+
+  <h3>Skills & Achievements</h3>
+   <table cellspacing="20">
+     <tr>
+       <td><b>Python</b> </td>
+       <td>⭐⭐⭐⭐⭐</td>
+     </tr>
+     <tr>
+       <td><b>Java</b></td>
+       <td>⭐⭐⭐</td>
+     </tr>
+     <tr>
+       <td><b>English Communication</b></td>
+       <td>⭐⭐⭐⭐</td>
+     </tr>
+   </table>
+
+  <hr size="2" noshade>
+
+  <h3>My Educational Details</h3>
+  <ul> <!--Unordered list is being used to list out some points by using bullets marks or some other symbols.They are not being ordered in a particular sequence -->
+    <li>10th in St.Xavier's High School</li>
+    <li>12th in GSREM</li> <!--This tag is being used to represent an item in an ordered list, unordered list or a menu. -->
+    <li>B.tech in C.V.Raman College of Engineering</li> <!--In <ul>,<li> are usually being displayed using bullets points. -->
+  </ul>
+  <h4>Other Necessary Information</h4>
+  <ol start="1"> <!--Ordered list is being used to list out some points by using alpha-numerical values. They are being ordered sequentially. -->
+    <li><a href="hobbies.html">My Hobbies</a></li> <!--In <ol>, <li> is usually being displayed with an ascending order on the left,such as numbers or letters. -->
+    <li><a href="contact.html">Contact Details</a></li>
+  </ol>
+</body>
+</html>
